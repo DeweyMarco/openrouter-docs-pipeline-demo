@@ -1,0 +1,37 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "OpenRouter API",
+  "theme": "mint",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Introduction",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "openapi": "openrouter-openapi-enriched.yaml"
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "API Reference",
+          "href": "/api-reference",
+          "icon": "rectangle-terminal"
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,11 @@
 # Generated SDK directories (potentially large — run ./run-demo.sh to regenerate)
 speakeasy-python/
 speakeasy-typescript/
+mintlify-demo-python/
+mintlify-demo-typescript/
+
+# Temporary build artifacts
+.tmp-mintsite/
 
 # Duplicate JSON form of the spec
 openrouter-openapi.json
