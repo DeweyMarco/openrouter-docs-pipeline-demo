@@ -1,0 +1,11 @@
+# Generated SDK directories (potentially large — run ./run-demo.sh to regenerate)
+speakeasy-python/
+speakeasy-typescript/
+
+# Duplicate JSON form of the spec
+openrouter-openapi.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/

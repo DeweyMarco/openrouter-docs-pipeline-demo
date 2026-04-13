@@ -1,0 +1,140 @@
+{
+  "name": "OpenRouter API",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983"
+  },
+  "anchors": [
+    {
+      "name": "API Reference",
+      "icon": "rectangle-terminal",
+      "url": "api-reference"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        {
+          "group": "Analytics",
+          "pages": [
+            "api-reference/analytics/get-user-activity"
+          ]
+        },
+        {
+          "group": "Anthropic Messages",
+          "pages": [
+            "api-reference/anthropic-messages/create-messages"
+          ]
+        },
+        {
+          "group": "Api Keys",
+          "pages": [
+            "api-reference/api-keys/create-keys",
+            "api-reference/api-keys/delete-keys",
+            "api-reference/api-keys/get-current-key",
+            "api-reference/api-keys/get-key",
+            "api-reference/api-keys/list",
+            "api-reference/api-keys/update-keys"
+          ]
+        },
+        {
+          "group": "Betaresponses",
+          "pages": [
+            "api-reference/betaresponses/create-responses"
+          ]
+        },
+        {
+          "group": "Chat",
+          "pages": [
+            "api-reference/chat/send-chat-completion-request"
+          ]
+        },
+        {
+          "group": "Credits",
+          "pages": [
+            "api-reference/credits/create-coinbase-charge",
+            "api-reference/credits/get-credits"
+          ]
+        },
+        {
+          "group": "Embeddings",
+          "pages": [
+            "api-reference/embeddings/create-embeddings",
+            "api-reference/embeddings/list-embeddings-models"
+          ]
+        },
+        {
+          "group": "Endpoints",
+          "pages": [
+            "api-reference/endpoints/list-endpoints-zdr",
+            "api-reference/endpoints/list-endpoints"
+          ]
+        },
+        {
+          "group": "Generations",
+          "pages": [
+            "api-reference/generations/get-generation"
+          ]
+        },
+        {
+          "group": "Guardrails",
+          "pages": [
+            "api-reference/guardrails/bulk-assign-keys-to-guardrail",
+            "api-reference/guardrails/bulk-assign-members-to-guardrail",
+            "api-reference/guardrails/bulk-unassign-keys-from-guardrail",
+            "api-reference/guardrails/bulk-unassign-members-from-guardrail",
+            "api-reference/guardrails/create-guardrail",
+            "api-reference/guardrails/delete-guardrail",
+            "api-reference/guardrails/get-guardrail",
+            "api-reference/guardrails/list-guardrail-key-assignments",
+            "api-reference/guardrails/list-guardrail-member-assignments",
+            "api-reference/guardrails/list-guardrails",
+            "api-reference/guardrails/list-key-assignments",
+            "api-reference/guardrails/list-member-assignments",
+            "api-reference/guardrails/update-guardrail"
+          ]
+        },
+        {
+          "group": "Models",
+          "pages": [
+            "api-reference/models/get-models",
+            "api-reference/models/list-models-count",
+            "api-reference/models/list-models-user"
+          ]
+        },
+        {
+          "group": "Oauth",
+          "pages": [
+            "api-reference/oauth/create-auth-keys-code",
+            "api-reference/oauth/exchange-auth-code-for-api-key"
+          ]
+        },
+        {
+          "group": "Organization",
+          "pages": [
+            "api-reference/organization/list-organization-members"
+          ]
+        },
+        {
+          "group": "Providers",
+          "pages": [
+            "api-reference/providers/list-providers"
+          ]
+        },
+        {
+          "group": "Rerank",
+          "pages": [
+            "api-reference/rerank/create-rerank"
+          ]
+        }
+      ]
+    }
+  ]
+}
